@@ -1,0 +1,9 @@
+services:
+  nodejs:
+    build: .
+    container_name: nodejs
+    restart: unless-stopped
+    environment:
+      - DB_URI=mongodb://nnf:jakna@localhost:27017/?retryWrites=true&w=majority
+    ports:
+      - "80:8080"
