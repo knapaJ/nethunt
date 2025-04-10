@@ -83,7 +83,7 @@ export const nodeMap:NetworkNode[] = 	[
 		description: "Another host, another machine. But this one seems to be a bit more interesting. The admin logs in from here, so there might be some useful information here...",
 		cipher_text: "That's weird, no password needed, just a number. The machine seems to be impenetrable, but this number might be OSINT. Try looking for the personal number of the lead dev for the 'My BUT' app.",
 		answer_text: ['161823'],
-		answer_description: "Now. This is no ordinary host. This is a proxy server. It's job is to relay the traffic between the internal and external network. It's like a middleman, but a middleman that can be easily manipulated. Let's see what we can do with it... No files, some logs... hold on, a username. 'しゅんつす'",
+		answer_description: "Now. This is no ordinary host. This is a proxy server. It's job is to relay the traffic between the internal and external network. It's like a middleman, but a middleman that can be easily manipulated. Let's see what we can do with it... No files, some logs... hold on, a username. 'しんつす'",
 		location_hint: "Library is closed now. But have you tried the back door?"
 	},
 	{
